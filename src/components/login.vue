@@ -1,6 +1,7 @@
 <template>
 <div class="login">
     <div class="box">
+        <h2 class="h">用户登录</h2>
         <el-form
     :model="ruleForm"
     status-icon
@@ -107,7 +108,7 @@ export default {
         background-color: #324152;
         .box{
             width: 400px;
-            height: 250px;
+            height: 280px;
             background-color: #fff;
             position: relative;
             left:50%;
@@ -118,6 +119,9 @@ export default {
             .btn{
                 width:100%;
 
+            }
+            .h{
+                margin-bottom: 20px;
             }
             
         }
